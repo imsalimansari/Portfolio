@@ -34,6 +34,21 @@ const projects = [
     highlights: ["Invoice management", "Real-time payment tracking", "AI-powered invoice generation"]
   },
   {
+    id: 5,
+    title: "Personal Portfolio",
+    category: "A Portfolio",
+    description: "Personal portfolio showcasing projects, technical skills, and professional achievements with an interactive and responsive design.",
+    image: "/projects/project5.png",
+    video: "/projects/videos/portfolio-demo.mp4",
+    tags: ["React", "JavaScript", "TailwindCSS", "Framer Motion"],
+    demoUrl: "https://imsalimansari.vercel.app/",
+    githubUrl: "https://github.com/imsalimansari/Portfolio",
+    featured: true,
+    accentColor: "from-purple-500 to-indigo-600",
+    status: "Live",
+    highlights: ["Project Showcase", "Responsive User Interface", "Professional Profile and Skills"]
+  },
+  {
     id: 6,
     title: "Drum Kit",
     category: "A Drum Play",
@@ -48,27 +63,13 @@ const projects = [
     status: "Live",
     highlights: ["Keyboard-Based Sound Controls", "Interactive Drum Pads", "Real-Time Audio Playback"]
   },
-  {
-    id: 5,
-    title: "Personal Portfolio",
-    category: "A Portfolio",
-    description: "Personal portfolio showcasing projects, technical skills, and professional achievements with an interactive and responsive design.",
-    image: "/projects/project5.png",
-    video: "/projects/videos/portfolio-demo.mp4",
-    tags: ["HTML", "CSS", "JavaScript"],
-    demoUrl: "https://imsalimansari.vercel.app/",
-    githubUrl: "https://github.com/imsalimansari/Portfolio",
-    featured: true,
-    accentColor: "from-purple-500 to-indigo-600",
-    status: "Live",
-    highlights: ["Project Showcase", "Responsive User Interface", "Professional Profile and Skills"]
-  }
 ];
 
 const categoryColors = {
   "A Job Portal": "from-amber-500/20 to-orange-600/20 text-amber-600 border-amber-500/30",
   "Invoice AI": "from-purple-500/20 to-indigo-600/20 text-purple-600 border-purple-500/30",
   "A Drum Play": "from-blue-500/20 to-cyan-600/20 text-blue-600 border-blue-500/30",
+  "A Portfolio": "from-emerald-500/20 to-teal-600/20 text-emerald-600 border-emerald-500/30",
 };
 
 export const ProjectsSection = () => {
