@@ -34,7 +34,7 @@ const projects = [
     highlights: ["Invoice management", "Real-time payment tracking", "AI-powered invoice generation"]
   },
   {
-    id: 1,
+    id: 6,
     title: "Drum Kit",
     category: "A Drum Play",
     description: "Interactive drum kit that plays realistic drum sounds using keyboard controls and clickable buttons.",
@@ -47,6 +47,21 @@ const projects = [
     accentColor: "from-purple-500 to-indigo-600",
     status: "Live",
     highlights: ["Keyboard-Based Sound Controls", "Interactive Drum Pads", "Real-Time Audio Playback"]
+  },
+  {
+    id: 5,
+    title: "Personal Portfolio",
+    category: "A Portfolio",
+    description: "Personal portfolio showcasing projects, technical skills, and professional achievements with an interactive and responsive design.",
+    image: "/projects/project5.png",
+    video: "/projects/videos/portfolio-demo.mp4",
+    tags: ["HTML", "CSS", "JavaScript"],
+    demoUrl: "https://imsalimansari.vercel.app/",
+    githubUrl: "https://github.com/imsalimansari/Portfolio",
+    featured: true,
+    accentColor: "from-purple-500 to-indigo-600",
+    status: "Live",
+    highlights: ["Project Showcase", "Responsive User Interface", "Professional Profile and Skills"]
   }
 ];
 
