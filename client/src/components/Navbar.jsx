@@ -150,7 +150,7 @@ export const Navbar = () => {
       >
         {/* Website Globe Button */}
         <motion.a
-          href="https://salim.vercel.app"
+          href="https://imsalimansari.vercel.app"
           target="_blank"
           rel="noopener noreferrer"
           className={cn(

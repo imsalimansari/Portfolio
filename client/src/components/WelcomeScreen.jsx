@@ -28,7 +28,7 @@ const WelcomeScreen = ({ onWelcomeComplete }) => {
   };
 
   const currentColors = colors[theme] || colors.dark;
-  const portfolioUrl = "salim.vercel.app";
+  const portfolioUrl = "imsalimansari.vercel.app";
   const welcomeMessages = [
     "Crafting digital experiences",
     "Software Engineer",
