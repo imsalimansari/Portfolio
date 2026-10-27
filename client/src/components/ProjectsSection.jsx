@@ -38,7 +38,7 @@ const projects = [
     demoUrl: "https://hiring-tactics-1.onrender.com/",
     githubUrl: "https://github.com/imsalimansari/Hiring-Tactics",
     featured: true,
-    accentColor: "from-emerald-500 to-teal-600",
+    accentColor: "from-emerald-600 to-green-800",
     status: "Live",
     highlights: [
       "Recruiter Dashboard",
@@ -59,7 +59,7 @@ const projects = [
     demoUrl: " ",
     githubUrl: "https://github.com/imsalimansari/Invoice_AI",
     featured: true,
-    accentColor: "from-emerald-500 to-teal-600",
+    accentColor: "from-amber-400 to-orange-600",
     status: "Live",
     highlights: [
       "Invoice management",
@@ -79,7 +79,7 @@ const projects = [
     demoUrl: "https://imsalimansari.vercel.app/",
     githubUrl: "https://github.com/imsalimansari/Portfolio",
     featured: true,
-    accentColor: "from-purple-500 to-indigo-600",
+    accentColor: "from-purple-700 to-fuchsia-900",
     status: "Live",
     highlights: [
       "Project Showcase",
