@@ -63,7 +63,7 @@ const projects = [
     status: "Live",
     highlights: [
       "Invoice management",
-      "Real-time payment tracking",
+      "Payment tracking",
       "AI-powered invoice generation",
     ],
   },

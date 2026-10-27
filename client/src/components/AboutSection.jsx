@@ -9,17 +9,17 @@ export const AboutSection = () => {
 
   const achievements = [
     { number: "5+", label: "Projects", icon: <Briefcase className="h-5 w-5" />, suffix: "" },
-    { number: "0.5", label: "Years Exp", icon: <Calendar className="h-5 w-5" />, suffix: "+" },
+    { number: "1", label: "Years Exp", icon: <Calendar className="h-5 w-5" />, suffix: "+" },
     { number: "99", label: "Success", icon: <Target className="h-5 w-5" />, suffix: "%" },
     { number: "2", label: "Clients", icon: <User className="h-5 w-5" />, suffix: "+" }
   ];
 
   const techStack = [
-    { category: "Frontend", items: ["React", "JavaScript", "HTML", "Tailwind", "Redux", "TypeScript"] },
-    { category: "Backend", items: ["Node.js", "Express", "RESTful APIs", "RBAC"] },
+    { category: "Frontend", items: ["React", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind", "Redux"] },
+    { category: "Backend", items: ["Node.js", "Express.js", "RESTful API Development", "RBAC", "Middleware", "CRUD Operations"] },
     { category: "Databases", items: ["MongoDB", "MySQL"] },
     { category: "Tools", items: ["Git", "GitHub", "Postman", "MongoDB Compass"] },
-    { category: "Deployment", items: ["Vercel", "Render", "Netlify"] }
+    { category: "Deployment", items: ["Vercel", "Render", "Netlify", "Github Pages"] }
   ];
 
   const features = [
@@ -40,7 +40,7 @@ export const AboutSection = () => {
 
   const tabContent = {
     personal: "Passionate about building practical web applications that solve real-world problems. I enjoy exploring new technologies, strengthening my development skills, and creating reliable digital solutions.",
-    professional: "A BCA graduate and Software Developer with 6 months of full-stack development internship experience. Skilled in JavaScript, Node.js, Express.js, React.js, MongoDB, REST APIs, JWT authentication, and RBAC, with hands-on project experience in backend development and database-driven applications.",
+    professional: "Software Developer with 1 year of experience in full-stack web development and hands-on project experience building databasedriven applications. Proficient in JavaScript, Node.js, Express.js, React.js, MongoDB, RESTful APIs, JWT authentication, and role-based access control (RBAC). Skilled in backend development, API integration, database management, and implementing authentication and authorization workflows.",
     approach: "I focus on writing clean, maintainable code, building secure APIs, and developing user-friendly applications. I value problem-solving, collaborative development using Git and GitHub, and continuous learning to deliver reliable software."
   };
 
@@ -58,8 +58,8 @@ export const AboutSection = () => {
   // Programmatic download function
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/Salim_Ansari_SDE.pdf'; // Must be in public folder
-    link.download = 'Salim_Ansari_SDE.pdf';
+    link.href = '/Salim_Ansari.pdf'; // Must be in public folder
+    link.download = 'Salim_Ansari.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

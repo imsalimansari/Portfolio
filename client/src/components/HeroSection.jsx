@@ -13,7 +13,7 @@ export const HeroSection = () => {
     "",
     "const developer = new FullStackDeveloper({",
     "  name: 'Salim',",
-    "  stack: ['JavaScript', 'React', 'Node.js', 'Express.js', 'TypeScript', 'MongoDB', 'MySQL', 'APITesting' ],",
+    "  stack: ['JavaScript', 'React', 'Node.js', 'Express.js', 'MongoDB', 'MySQL', 'APITesting' ],",
     "  focus: 'Building reliable, secure, and scalable web applications',",
     "  status: 'Open to new opportunities'",
     "});",
@@ -26,7 +26,7 @@ export const HeroSection = () => {
   ];
 
   const achievements = [
-    { number: "0.5+", label: "Years EXP", icon: <Shield className="h-3 w-3" /> },
+    { number: "1+", label: "Years EXP", icon: <Shield className="h-3 w-3" /> },
     { number: "2+", label: "Clients", icon: <TrendingUp className="h-3 w-3" /> },
     { number: "100%", label: "Client Satisfaction", icon: <Award className="h-3 w-3" /> },
     { number: "5+", label: "Projects completed", icon: <Zap className="h-3 w-3" /> }
@@ -55,7 +55,7 @@ export const HeroSection = () => {
 
   const handleViewResume = () => {
     // Open resume in new tab
-    window.open('/Salim_Ansari_SDE.pdf', '_blank', 'noopener,noreferrer');
+    window.open('/Salim_Ansari.pdf', '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -129,8 +129,7 @@ export const HeroSection = () => {
             <motion.div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start" variants={{ hidden: { y: 30, opacity: 0 }, visible: { y: 0, opacity: 1, transition: { duration: 0.8 } } }}>
               <motion.a href="#projects" className="group relative overflow-hidden px-8 py-4 rounded-xl font-semibold bg-gradient-to-r from-primary to-purple-600 text-primary-foreground shadow-lg hover:shadow-xl text-sm flex items-center justify-center gap-3" whileHover={{ scale: 1.05, y: -2 }} whileTap={{ scale: 0.95 }}>
                 <Code className="h-5 w-5" /> 
-                <span>View Case Studies</span>
-                <TrendingUp className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                <span>View Projects</span>
               </motion.a>
               
               <motion.a href="#contact" className="group relative overflow-hidden px-8 py-4 rounded-xl font-semibold border border-primary/50 text-foreground hover:border-primary transition-all duration-300 bg-background/80 backdrop-blur-sm text-sm flex items-center justify-center gap-3" whileHover={{ scale: 1.05, y: -2 }} whileTap={{ scale: 0.95 }}>
@@ -185,7 +184,7 @@ export const HeroSection = () => {
                             transition-opacity duration-150 ease-in-out
                             ${line.includes("import") ? "text-purple-400 font-semibold" : 
                               line.includes("const") || line.includes("new") ? "text-blue-400 font-semibold" :
-                              line.includes("React") || line.includes("Node.js") || line.includes("TypeScript") ? "text-cyan-400" :
+                              line.includes("React") || line.includes("Node.js") ? "text-cyan-400" :
                               line.includes("FullStackDeveloper") ? "text-emerald-400 font-semibold" :
                               line.includes("//") ? "text-muted-foreground italic" :
                               line.includes("await") || line.includes("connect") ? "text-yellow-400" :

@@ -34,16 +34,15 @@ const skills = [
   { name: "SASS", level: 85, category: "frontend", icon: "sass" },
   { name: "JavaScript", level: 80, category: "frontend", icon: "javascript" },
   { name: "React", level: 90, category: "frontend", icon: "react" },
-  { name: "Redux", level: 70, category: "frontend", icon: "redux" },
-  { name: "TypeScript", level: 75, category: "frontend", icon: "typescript" },
+  { name: "Redux", level: 90, category: "frontend", icon: "redux" },
   
 
   // Backend
   { name: "Node.js", level: 90, category: "backend", icon: "nodejs" },
-  { name: "Express", level: 85, category: "backend", icon: "express" },
+  { name: "Express.js", level: 85, category: "backend", icon: "express" },
   { name: "MongoDB", level: 90, category: "backend", icon: "mongodb" },
   { name: "MySQL", level: 65, category: "backend", icon: "mysql" },
-  { name: "Python", level: 60, category: "backend", icon: "python" },
+  { name: "Python", level: 50, category: "backend", icon: "python" },
 
   // Tools
   { name: "Git", level: 90, category: "tools", icon: "git" },
